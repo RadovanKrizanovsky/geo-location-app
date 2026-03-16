@@ -21,6 +21,3 @@ MAPBOX_DOWNLOADS_TOKEN=sk...
 1. Open the project in Android Studio.
 2. Ensure the tokens are set (above).
 3. Run Gradle sync, then build or run the app on a device/emulator.
-
-## Modules
-- `app` — Android application module.
