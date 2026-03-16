@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">My Application</string>
+    
+    
+    <string name="intro_title">Geofencing</string>
+    <string name="intro_subtitle">Radovan Križanovský</string>
+    <string name="intro_description">Geolocation and location sharing with nearby users</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Register</string>
+    
+    
+    <string name="login_title">Login</string>
+    <string name="login_subtitle">Welcome back! Log in to your account.</string>
+    <string name="hint_email">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_submit_login">Login</string>
+    <string name="forgot_password">Forgot password?</string>
+    
+    
+    <string name="register_title">Registration</string>
+    <string name="register_subtitle">Create a new account and start sharing your location.</string>
+    <string name="hint_username">Username</string>
+    <string name="btn_submit_register">Register</string>
+    
+    
+    <string name="feed_title">People Nearby</string>
+    <string name="feed_subtitle">People around you</string>
+    <string name="feed_empty">No content yet...</string>
+    
+    
+    <string name="profile_title">User Profile</string>
+    <string name="profile_empty">No content yet...</string>
+    <string name="profile_not_logged_in">Not logged in</string>
+    <string name="profile_user_id">ID: %s</string>
+    <string name="profile_user_id_default">ID: -</string>
+    
+    
+    <string name="profile_section_photo">Photo</string>
+    <string name="profile_upload_photo">Upload photo</string>
+    <string name="profile_delete_photo">Delete photo</string>
+    <string name="profile_photo_description">Profile photo</string>
+    
+    
+    <string name="profile_section_settings">Settings</string>
+    <string name="profile_share_location">Share location</string>
+    <string name="profile_share_location_description">Show your position to others</string>
+    <string name="profile_change_password">Change password</string>
+    <string name="profile_logout">Log out</string>
+    
+    
+    <string name="change_password_title">Change Password</string>
+    <string name="change_password_current">Current password</string>
+    <string name="change_password_new">New password</string>
+    <string name="change_password_confirm">Confirm new password</string>
+    <string name="change_password_submit">Change password</string>
+    
+    
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="forgot_password_description">Enter your email and we will send you a password reset link.</string>
+    <string name="forgot_password_submit">Reset password</string>
+    
+    
+    <string name="other_profile_last_seen">Last seen: %s</string>
+    <string name="other_profile_last_geofence">Last recorded geofence:</string>
+    
+    
+    <string name="nav_map">Map</string>
+    <string name="nav_feed">Feed</string>
+    <string name="nav_profile">Profile</string>
+    
+    
+    <string name="goto_feed">Go to Feed</string>
+    
+    
+    <string name="feed_item_recently_active">Recently active</string>
+    <string name="feed_item_user_profile">User profile</string>
+    <string name="feed_item_active_now">Active now</string>
+    <string name="feed_item_active_minutes">Active %1$dm ago</string>
+    <string name="feed_item_active_hours">Active %1$dh ago</string>
+    <string name="feed_item_active_days">Active %1$dd ago</string>
+    <string name="feed_item_active_recently">Recently active</string>
+    
+    
+    <string name="snackbar_login_success">Login successful!</string>
+    <string name="snackbar_photo_permission_denied">Photo access permission denied</string>
+    <string name="snackbar_location_permission_denied">Location permission denied</string>
+    <string name="snackbar_background_permission_denied">Background location permission denied</string>
+    <string name="snackbar_location_enabled">Location sharing enabled</string>
+    <string name="snackbar_location_disabled">Location sharing disabled</string>
+    <string name="snackbar_password_changed">Password successfully changed</string>
+    
+    
+    <string name="error_current_password_empty">Enter current password</string>
+    <string name="error_new_password_empty">Enter new password</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    
+    
+    <string name="cd_map">Map</string>
+    <string name="cd_feed">Feed</string>
+    <string name="cd_profile">Profile</string>
+    <string name="cd_show_profile">Show profile</string>
+    <string name="cd_app_logo">App logo</string>
+    <string name="cd_profile_photo">Profile photo</string>
+    
+    
+    <string name="map_title">Map</string>
+    
+    
+    <string name="toast_login">Login: %1$s / %2$s</string>
+    <string name="toast_register">Registered: %1$s / %2$s</string>
+    
+    
+    <string name="registration_success">Registration successful!</string>
+    <string name="photo_uploaded">Photo uploaded successfully</string>
+    <string name="photo_deleted">Photo deleted</string>
+    <string name="location_sharing_enabled">Location sharing enabled</string>
+    <string name="location_sharing_disabled">Location sharing disabled</string>
+
+    
+    
+    <string name="error_username_empty">Username cannot be empty</string>
+    <string name="error_email_empty">Email cannot be empty</string>
+    <string name="error_password_empty">Password cannot be empty</string>
+    <string name="error_registration_failed">Registration failed</string>
+    <string name="error_network">Check your internet connection</string>
+    <string name="error_fatal">Critical error. Please try again.</string>
+    <string name="error_login_failed">Invalid credentials</string>
+    <string name="error_login_general">Login error</string>
+    <string name="error_photo_upload">Error uploading photo</string>
+    <string name="error_photo_delete">Error deleting photo</string>
+    
+    
+    <string name="permission_photo_denied">Photo access permission denied</string>
+    <string name="permission_location_denied">Location access permission denied</string>
+</resources>

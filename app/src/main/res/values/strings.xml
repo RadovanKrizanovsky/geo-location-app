@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">Moja Aplikácia</string>
+    
+    
+    <string name="intro_title">Geofencing</string>
+    <string name="intro_subtitle">Radovan Križanovský</string>
+    <string name="intro_description">Geolokácia a zdieľanie polohy s používateľmi v okolí</string>
+    <string name="btn_login">Prihlásiť</string>
+    <string name="btn_register">Registrovať</string>
+    
+    
+    <string name="login_title">Prihlásenie</string>
+    <string name="login_subtitle">Vitaj späť! Prihlás sa do svojho účtu.</string>
+    <string name="hint_email">Používateľské meno</string>
+    <string name="hint_password">Heslo</string>
+    <string name="btn_submit_login">Prihlásiť</string>
+    <string name="forgot_password">Zabudli ste heslo?</string>
+    
+    
+    <string name="register_title">Registrácia</string>
+    <string name="register_subtitle">Vytvor si nový účet a začni zdieľať polohu.</string>
+    <string name="hint_username">Používateľské meno</string>
+    <string name="btn_submit_register">Registrovať</string>
+    
+    
+    <string name="feed_title">Zoznam ľudí v okolí</string>
+    <string name="feed_subtitle">Ľudia v tvojom okolí</string>
+    <string name="feed_empty">Zatiaľ bez obsahu...</string>
+    
+    
+    <string name="profile_title">Profil používateľa</string>
+    <string name="profile_empty">Zatiaľ bez obsahu...</string>
+    <string name="profile_not_logged_in">Nie ste prihlásený</string>
+    <string name="profile_user_id">ID: %s</string>
+    <string name="profile_user_id_default">ID: -</string>
+    
+    
+    <string name="profile_section_photo">Fotografia</string>
+    <string name="profile_upload_photo">Nahrať fotku</string>
+    <string name="profile_delete_photo">Odstrániť fotku</string>
+    <string name="profile_photo_description">Profilová fotka</string>
+    
+    
+    <string name="profile_section_settings">Nastavenia</string>
+    <string name="profile_share_location">Zdieľať polohu</string>
+    <string name="profile_share_location_description">Zobrazovať tvoju pozíciu ostatným</string>
+    <string name="profile_change_password">Zmeniť heslo</string>
+    <string name="profile_logout">Odhlásiť sa</string>
+    
+    
+    <string name="change_password_title">Zmena hesla</string>
+    <string name="change_password_current">Aktuálne heslo</string>
+    <string name="change_password_new">Nové heslo</string>
+    <string name="change_password_confirm">Potvrdiť nové heslo</string>
+    <string name="change_password_submit">Zmeniť heslo</string>
+    
+    
+    <string name="forgot_password_title">Zabudnuté heslo</string>
+    <string name="forgot_password_description">Zadajte váš email a pošleme vám link na obnovenie hesla.</string>
+    <string name="forgot_password_submit">Obnoviť heslo</string>
+    
+    
+    <string name="other_profile_last_seen">Naposledy videný: %s</string>
+    <string name="other_profile_last_geofence">Posledný zaznamenaný okruh:</string>
+    
+    
+    <string name="nav_map">Mapa</string>
+    <string name="nav_feed">Zoznam</string>
+    <string name="nav_profile">Profil</string>
+    
+    
+    <string name="goto_feed">Prejsť na Feed</string>
+    
+    
+    <string name="feed_item_recently_active">Nedávno aktívny</string>
+    <string name="feed_item_user_profile">Profil používateľa</string>
+    <string name="feed_item_active_now">Aktívny teraz</string>
+    <string name="feed_item_active_minutes">Aktívny pred %1$dm</string>
+    <string name="feed_item_active_hours">Aktívny pred %1$dh</string>
+    <string name="feed_item_active_days">Aktívny pred %1$dd</string>
+    <string name="feed_item_active_recently">Nedávno aktívny</string>
+    
+    
+    <string name="snackbar_login_success">Prihlásenie úspešné!</string>
+    <string name="snackbar_photo_permission_denied">Povolenie na prístup k fotkám zamietnuté</string>
+    <string name="snackbar_location_permission_denied">Povolenie na zdieľanie polohy bolo zamietnuté</string>
+    <string name="snackbar_background_permission_denied">Povolenie na zdieľanie polohy na pozadí bolo zamietnuté</string>
+    <string name="snackbar_location_enabled">Zdieľanie polohy zapnuté</string>
+    <string name="snackbar_location_disabled">Zdieľanie polohy vypnuté</string>
+    <string name="snackbar_password_changed">Heslo bolo úspešne zmenené</string>
+    
+    
+    <string name="error_current_password_empty">Zadajte aktuálne heslo</string>
+    <string name="error_new_password_empty">Zadajte nové heslo</string>
+    <string name="error_passwords_mismatch">Heslá sa nezhodujú</string>
+    <string name="error_password_too_short">Heslo musí mať aspoň 6 znakov</string>
+    
+    
+    <string name="cd_map">Mapa</string>
+    <string name="cd_feed">Zoznam</string>
+    <string name="cd_profile">Profil</string>
+    <string name="cd_show_profile">Zobraziť profil</string>
+    <string name="cd_app_logo">Logo aplikácie</string>
+    <string name="cd_profile_photo">Profilová fotka</string>
+    
+    
+    <string name="map_title">Mapa</string>
+    
+    
+    <string name="toast_login">Prihlásenie: %1$s / %2$s</string>
+    <string name="toast_register">Registrované: %1$s / %2$s</string>
+    
+    
+    <string name="registration_success">Registrácia úspešná!</string>
+    <string name="photo_uploaded">Fotka úspešne nahraná</string>
+    <string name="photo_deleted">Fotka odstránená</string>
+    <string name="location_sharing_enabled">Zdieľanie polohy zapnuté</string>
+    <string name="location_sharing_disabled">Zdieľanie polohy vypnuté</string>
+    
+    
+    <string name="error_username_empty">Používateľské meno nemôže byť prázdne</string>
+    <string name="error_email_empty">Email nemôže byť prázdny</string>
+    <string name="error_password_empty">Heslo nemôže byť prázdne</string>
+    <string name="error_registration_failed">Registrácia zlyhala</string>
+    <string name="error_network">Skontrolujte internetové pripojenie</string>
+    <string name="error_fatal">Kritická chyba. Skúste to znova.</string>
+    <string name="error_login_failed">Nesprávne prihlasovacie údaje</string>
+    <string name="error_login_general">Chyba pri prihlásení</string>
+    <string name="error_photo_upload">Chyba pri nahrávaní fotky</string>
+    <string name="error_photo_delete">Chyba pri odstraňovaní fotky</string>
+    
+    
+    <string name="permission_photo_denied">Povolenie na prístup k fotkám zamietnuté</string>
+    <string name="permission_location_denied">Povolenie na prístup k polohe zamietnuté</string>
+</resources>

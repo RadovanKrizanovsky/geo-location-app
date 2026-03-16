@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/introFragment">
+
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.myapplication.IntroFragment"
+        android:label="Uvod">
+        
+        <action
+            android:id="@+id/action_intro_to_register"
+            app:destination="@id/registerFragment" />
+        
+        <action
+            android:id="@+id/action_intro_to_login"
+            app:destination="@id/loginFragment" />
+        
+        <action
+            android:id="@+id/action_intro_to_feed"
+            app:destination="@id/feedFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.myapplication.LoginFragment"
+        android:label="Prihlasenie">
+        
+        <action
+            android:id="@+id/action_login_to_feed"
+            app:destination="@id/feedFragment"
+            app:popUpTo="@id/introFragment"
+            app:popUpToInclusive="true" />
+        
+        <action
+            android:id="@+id/action_login_to_forgot_password"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.myapplication.RegisterFragment"
+        android:label="Registracia" />
+
+    <fragment
+        android:id="@+id/feedFragment"
+        android:name="com.example.myapplication.FeedFragment"
+        android:label="Feed">
+        
+        <action
+            android:id="@+id/action_feed_to_other_profile"
+            app:destination="@id/otherUserProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.myapplication.MapFragment"
+        android:label="Mapa">
+        
+        <action
+            android:id="@+id/action_map_to_other_profile"
+            app:destination="@id/otherUserProfileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.myapplication.ProfileFragment"
+        android:label="Profil">
+        
+        <action
+            android:id="@+id/action_profile_to_change_password"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.myapplication.ForgotPasswordFragment"
+        android:label="Zabudnute heslo" />
+
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="com.example.myapplication.ChangePasswordFragment"
+        android:label="Zmena hesla" />
+
+    <fragment
+        android:id="@+id/otherUserProfileFragment"
+        android:name="com.example.myapplication.OtherUserProfileFragment"
+        android:label="Profil používateľa">
+        
+        <argument
+            android:name="userId"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
